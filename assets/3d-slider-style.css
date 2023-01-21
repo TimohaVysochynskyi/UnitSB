@@ -387,15 +387,15 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-carousel {
-    padding-bottom: 32px;
-    max-width: 1200px
+    width: 88vw;
+    margin-bottom: 30px;
 }
 
 .swiper-carousel .swiper-slide {
     width: 630px;
     height: 410px;
     border-radius: 8px;
-    background: #18212b;
+    background: #181818;
     max-width: calc(100% - 48px);
 }
 
@@ -423,7 +423,7 @@ button.swiper-pagination-bullet {
     bottom: 0;
     padding: 25px 16px 24px;
     box-sizing: border-box;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, .9));
+    /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, .9));*/
     border-radius: 0 0 8px 8px;
 }
 
