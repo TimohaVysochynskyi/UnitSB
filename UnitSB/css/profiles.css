@@ -1,0 +1,17 @@
+.profiles {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.profiles__img {
+  width: 149px;
+  height: 140px;
+  opacity: 0.9;
+  filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.5));
+  border-radius: 30px;
+}
+.profiles__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
