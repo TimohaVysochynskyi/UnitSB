@@ -1,0 +1,7 @@
+.wifi {
+  width: 100vw;
+  height: 600px;
+  background-color: #181818;
+  display: flex;
+  flex-direction: column;
+}

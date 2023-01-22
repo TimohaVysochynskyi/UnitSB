@@ -1,0 +1,73 @@
+.our-projects {
+  display: flex;
+  flex-direction: column;
+}
+.our-projects__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 63px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #000000;
+  margin-top: 35px;
+}
+.our-projects__block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.our-projects__button:nth-child(1) {
+  width: 408px;
+  height: 85px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    #181818;
+  border-radius: 20px 4px 4px 4px;
+}
+.our-projects__button:nth-child(2) {
+  width: 408px;
+  height: 85px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    #181818;
+  border-radius: 4px;
+}
+.our-projects__button:nth-child(3) {
+  width: 408px;
+  height: 85px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    #181818;
+  border-radius: 4px 20px 4px 4px;
+}

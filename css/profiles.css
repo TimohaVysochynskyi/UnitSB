@@ -1,5 +1,27 @@
 .profiles__block {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.profiles__img {
+  width: 149px;
+  height: 140px;
+  opacity: 0.9;
+  filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.5));
+  border-radius: 30px;
+}
+.profiles__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: -0.011em;
+  color: #000000;
+  margin-top: 8px;
+}
