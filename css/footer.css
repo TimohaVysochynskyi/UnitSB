@@ -29,8 +29,42 @@
   text-align: justify;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-top: 0.8%;
+  margin-left: 7%;
 }
 .footer__item {
   display: flex;
   flex-direction: row;
+  margin-top: 25px;
+}
+.footer__img {
+  width: 44px;
+  height: 44px;
+  margin-top: 10%;
+}
+.footer__special {
+  width: 44px;
+  height: 44px;
+  margin-top: 35%;
+}
+.footer__mail {
+  width: 44px;
+  height: 44px;
+  margin-top: 0.5%;
+}
+.footer__block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer__qrcode {
+  width: 490px;
+  height: 486px;
+  margin-top: 0%;
+}
+.footer__list {
+  margin-bottom: 60px;
+}
+.footer__part {
+  margin-top: 5%;
 }
