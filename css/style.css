@@ -4,10 +4,8 @@
 @import url(slider.css);
 @import url(form.css);
 @import url(profiles.css);
-@import url(looking.css);
-@import url(alarm.css);
-@import url(wifi.css);
-@import url(our-projects.css);
+@import url(spheres.css);
+@import url(projects.css);
 @import url(footer.css);
 * {
   margin: 0;

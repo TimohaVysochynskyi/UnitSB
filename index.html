@@ -28,16 +28,16 @@
         <nav class="header__nav">
             <ul class="header__list">
                 <li class="header__item">
-                    <a class="header__link">Головна</a>
+                    <a href="#" class="header__link">Головна</a>
                 </li>
                 <li class="header__item">
-                    <a class="header__link">Контакти</a>
+                    <a href="#" class="header__link">Контакти</a>
                 </li>
                 <li class="header__item">
-                    <a class="header__link">Наші проєкти</a>
+                    <a href="#" class="header__link">Наші проєкти</a>
                 </li>
                 <li class="header__item">
-                    <a class="header__link header__phone">+380 00 000 00 00</a>
+                    <a href="tel:+380000000000" class="header__link header__phone">+380 (00) 000 0000</a>
                 </li>
             </ul>
         </nav>
@@ -154,62 +154,65 @@
 
     <!-- FORM -->
     <div class="contact-wrapper">
-        <h2>Зв’яжіться з нами</h2>
-        <div class="contact__col">
-            <img src="./images/logo.png" alt="">
-        </div>
-        <div class="contact__col">
-            <form action="#" method="post">
-                <div class="contact__col">
-                    <input type="text" name="name" class="contact__input" placeholder="Ім'я">
-                    <input type="email" name="email" class="contact__input" placeholder="Електронна пошта">
-                    <input type="tel" name="phone" class="contact__input" placeholder="Телефон">
-                    <div>
-                        <div class="contact__col">
-                            <textarea name="message" class="contact__input"
-                                placeholder="Розкажіть нам, чим ми можемо Вам допомогти"></textarea>
-                            <button type="submit" class="contact__button">Надіслати</button>
-                            <div>
-            </form>
+        <h2 class="contact__title">Зв’яжіться з нами</h2>
+        <div class="contact__content">
+            <div class="contact__col">
+                <img src="./images/logo.png" alt="UnitSB">
+            </div>
+            <div class="contact__col">
+                <form action="#" method="post" class="contact__form">
+                    <div class="contact__col">
+                        <input type="text" name="name" class="contact__input" placeholder="Ім'я">
+                        <input type="email" name="email" class="contact__input" placeholder="Електронна пошта">
+                        <input type="tel" name="phone" class="contact__input" placeholder="Телефон">
+                    </div>
+                    <div class="contact__col">
+                        <textarea name="message" class="contact__input"
+                            placeholder="Розкажіть нам, чим ми можемо Вам допомогти"></textarea>
+                        <button type="submit" class="contact__button">Надіслати</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 
-    <<<<<<< HEAD:UnitSB/index.html=======>>>>>>>d9083d774e7652591eebf70e7cb7d4df5671b71a:index.html
-        <div class="profiles">
-            <div class="profiles__block">
-                <div>
-                    <img class="profiles__img" src="./images/looking.png">
-                    <h3 class="profiles__title">Відеонагляд</h3>
-                </div>
-                <div>
-                    <img class="profiles__img" src="./images/alarm.png">
-                    <h3 class="profiles__title">Сигналізація</h3>
-                </div>
-                <div>
-                    <img class="profiles__img" src="./images/control.png">
-                    <h3 class="profiles__title">Контроль доступу </h3>
-                </div>
-            </div>
-            <div class="profiles__block">
-                <div>
-                    <img class="profiles__img" src="./images/domofonia.png">
-                    <h3 class="profiles__title">Домофонія</h3>
-                </div>
-                <div>
-                    <img class="profiles__img" src="./images/GSM.png">
-                    <h3 class="profiles__title">Підсилення GSM</h3>
-                </div>
-                <div>
-                    <img class="profiles__img" src="./images/wifi.png">
-                    <h3 class="profiles__title">Wi-Fi та мережі</h3>
-                </div>
-            </div>
+
+    <!-- PROFILES -->
+    <div class="profiles-wrapper">
+        <div class="profile__item">
+            <img class="profiles__img" src="./images/looking.png">
+            <h3 class="profiles__title">Відеонагляд</h3>
         </div>
-        <div class="looking">
-            <h1 class="looking__title">ВІДЕОНАГЛЯД</h1>
-            <div class="looking__block">
-                <div>
-                    <p class="looking__text">
+        <div class="profile__item">
+            <img class="profiles__img" src="./images/alarm.png">
+            <h3 class="profiles__title">Сигналізація</h3>
+        </div>
+        <div class="profile__item">
+            <img class="profiles__img" src="./images/control.png">
+            <h3 class="profiles__title">Контроль доступу </h3>
+        </div>
+        <div class="profile__item">
+            <img class="profiles__img" src="./images/domofonia.png">
+            <h3 class="profiles__title">Домофонія</h3>
+        </div>
+        <div class="profile__item">
+            <img class="profiles__img" src="./images/GSM.png">
+            <h3 class="profiles__title">Підсилення GSM</h3>
+        </div>
+        <div class="profile__item">
+            <img class="profiles__img" src="./images/wifi.png">
+            <h3 class="profiles__title">Wi-Fi та мережі</h3>
+        </div>
+    </div>
+
+
+    <!-- SPHERES -->
+    <div class="spheres-wrapper">
+        <div class="sphere sphere-dark">
+            <h1 class="sphere-dark__title">ВІДЕОНАГЛЯД</h1>
+            <div class="sphere__content">
+                <div class="sphere-dark__col">
+                    <p class="sphere-dark__text">
                         Відеоспостереження – один із основних елементів системи безпеки будь-якого об'єкта. Цією
                         системою не
                         треба нехтувати. По-перше, спостереження - це надійний свідок всього, що відбувається на
@@ -220,21 +223,21 @@
                         периметр
                         або впливати на зловмисника іншими дієвими методами.</p>
                 </div>
-                <div class="looking__desc">
-                    <img class="looking__img" src="./images/camera.png">
-                    <button class="looking__button" type="button">Дізнатися більше</button>
+                <div class="sphere-dark__col">
+                    <img class="sphere-dark__img" src="./images/camera.png">
+                    <a href="#" class="sphere-dark__button">Дізнатися більше</a>
                 </div>
             </div>
         </div>
-        <div class="alarm">
-            <h1 class="alarm__title">СИСТЕМА СИГНАЛІЗАЦІЇ</h1>
-            <div class="alarm__block">
-                <div class="alarm__part">
-                    <img class="alarm__img" src="./images/system.png">
-                    <buttton class="alarm__buttton" type="button">Дізнатися більше</buttton>
+        <div class="sphere sphere-light">
+            <h1 class="sphere-light__title">СИСТЕМА СИГНАЛІЗАЦІЇ</h1>
+            <div class="sphere__content">
+                <div class="sphere-lihgt__col">
+                    <img class="sphere-light__img" src="./images/system.png">
+                    <a href="#" class="sphere-light__button">Дізнатися більше</a>
                 </div>
-                <div class="alarm__item">
-                    <p class="alarm__text">
+                <div class="sphere-lihgt__col">
+                    <p class="sphere-light__text">
                         Ядром будь-якої системи безпеки є сигналізація. Сучасні системи сигналізації дозволяють не
                         тільки запобігати спробам негласного проникнення в житло, але й ефективно протидіяти іншим (не
                         менш небезпечним) загрозам: пожежі, задимленню, витоку газу, затопленню, стрибкам електрики.
@@ -245,11 +248,11 @@
                 </div>
             </div>
         </div>
-        <div class="looking">
-            <h1 class="looking__title">КОНТРОЛЬ ДОСТУПУ</h1>
-            <div class="looking__block">
-                <div>
-                    <p class="looking__text">Популярними є системи контролю та управління доступом, що дозволяють
+        <div class="sphere sphere-dark">
+            <h1 class="sphere-dark__title">КОНТРОЛЬ ДОСТУПУ</h1>
+            <div class="sphere__content">
+                <div class="sphere-dark__col">
+                    <p class="sphere-dark__text">Популярними є системи контролю та управління доступом, що дозволяють
                         запобігти попаданню
                         сторонніх осіб на закриту територію. Контроль периметра забезпечується шляхом встановлення на
                         точках входу спеціальних електромагнітних та електромеханічних замків, різного роду керованих
@@ -258,21 +261,21 @@
                         і ключами тач-меморі. В умовах пандемії актуальною стає система з можливістю температурного
                         скринінгу відвідувачів.</p>
                 </div>
-                <div class="looking__desc">
-                    <img class="looking__img" src="./images/control.img.png">
-                    <button class="looking__button" type="button">Дізнатися більше</button>
+                <div class="sphere-dark__col">
+                    <img class="sphere-dark__img" src="./images/control.img.png">
+                    <a href="#" class="sphere-dark__button">Дізнатися більше</a>
                 </div>
             </div>
         </div>
-        <div class="alarm">
-            <h1 class="alarm__title">ДОМОФОНІЯ</h1>
-            <div class="alarm__block">
-                <div class="alarm__part">
-                    <img class="alarm__img" src="./images/domofonia.img.png">
-                    <button class="alarm__buttton" type="button">Дізнатися більше</button>
+        <div class="sphere sphere-light">
+            <h1 class="sphere-light__title">ДОМОФОНІЯ</h1>
+            <div class="sphere__content">
+                <div class="sphere-lihgt__col">
+                    <img class="sphere-light__img" src="./images/domofonia.img.png">
+                    <a href="#" class="sphere-light__button">Дізнатися більше</a> 
                 </div>
-                <div class="alarm__item">
-                    <p class="alarm__text">Правильно підібраний домофон дозволяє значно підвищити безпеку вхідної групи
+                <div class="sphere-lihgt__col">
+                    <p class="sphere-light__text">Правильно підібраний домофон дозволяє значно підвищити безпеку вхідної групи
                         квартири чи будинку.
                         Нові моделі домофонів забезпечують фото- та відео-фіксацію осіб, які знаходяться перед дверима.
                         Переадресація викликів зручна для спілкування з відвідувачами, якщо Вас немає вдома. Наявність
@@ -283,11 +286,11 @@
                 </div>
             </div>
         </div>
-        <div class="wifi">
-            <h1 class="looking__title">БЕЗШОВНИЙ WI-Fi</h1>
-            <div class="looking__block">
-                <div>
-                    <p class="looking__text">Хто цінує комфорт, напевно встиг гідно оцінити переваги безшовного Wi-Fi.
+        <div class="sphere sphere-dark">
+            <h1 class="sphere-dark__title">БЕЗШОВНИЙ WI-Fi</h1>
+            <div class="sphere__content">
+                <div class="sphere-dark__col">
+                    <p class="sphere-dark__text">Хто цінує комфорт, напевно встиг гідно оцінити переваги безшовного Wi-Fi.
                         Ядром мережі може бути якісний маршрутизатор, встановлений (за всіма правилами) в
                         телекомунікаційну шафу. Безшовне покриття забезпечують точки доступу, встановлені таким чином,
                         щоб у будь-якій частині будинку (а за потреби - і на прибудинковій території) було стійке
@@ -295,72 +298,80 @@
                         можливість обладнання спеціального модуля для посилення GSM-сигналу (особливо актуально для
                         приватних будинків, які віддалені від установок базових станцій мобільних операторів).</p>
                 </div>
-                <div class="looking__desc">
-                    <img class="looking__img" src="./images/block.img.png">
-                    <button class="looking__button" type="button">Дізнатися більше</button>
+                <div class="sphere-dark__col">
+                    <img class="sphere-dark__img" src="./images/block.img.png">
+                    <a href="#" class="sphere-dark__button">Дізнатися більше</a>
                 </div>
-            </div>
-            <!--Слайдери твоя робота, я туда не суваюсь -->
-        </div>
-        <div class="our-projects">
-            <h1 class="our-projects__title">НАШІ ПРОЕКТИ</h1>
-            <div class="our-projects__block">
-                <button class="our-projects__button" type="button">Інші проекти</button>
-                <button class="our-projects__button" type="button">Вартість робіт</button>
-                <button class="our-projects__button" type="button">Зробити замовлення</button>
             </div>
         </div>
-        <footer class="footer">
-            <h1 class="footer__title">Контакти</h1>
-            <!--Тут знову ти работаєш-->
-            <map></map>
-            <div class="footer__block">
-                <div class="footer__part">
-                    <ul class="footer__list">
-                        <li class="footer__item">
-                            <div>
-                                <img class="footer__img" src="./images/instagram.png">
-                            </div>
-                            <a href="mailto:@HentaiDONATE" class="footer__link">@UnitSBinst</a>
-                        </li>
-                        <li class="footer__item">
-                            <div>
-                                <img class="footer__img" src="./images/facebook.png">
-                            </div>
-                            <a href="#" class="footer__link">@UnitSBface</a>
-                        </li>
-                        <li class="footer__item">
-                            <div>
-                                <img class="footer__special" src="./images/youtube.png">
-                            </div>
-                            <a href="#" class="footer__link">@UnitSByt</a>
-                        </li>
-                    </ul>
-                    <ul class="footer__list">
-                        <li class="footer__item">
-                            <div>
-                                <img class="footer__img" src="./images/phone-call.png.img">
-                            </div>
-                            <a href="tel:+380 00 000 00 00" class="footer__link">+380 00 000 00 00</a>
-                        </li>
-                        <li class="footer__item">
-                            <img class="footer__mail" src="./images/mail.png.img">
-                            <a href="mailto:hentaidonate.official@gmail.com"
-                                class="footer__link">unitsb.official@gmail.com</a>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <img class="footer__qrcode" src="./images/qrcode.png">
-                </div>
+    </div>
+
+
+    <!-- OUR PROJECTS -->
+    <div class="our-projects">
+        <h1 class="our-projects__title">НАШІ ПРОЕКТИ</h1>
+        <div class="our-projects__block">
+            <button class="our-projects__button" type="button">Інші проекти</button>
+            <button class="our-projects__button" type="button">Вартість робіт</button>
+            <button class="our-projects__button" type="button">Зробити замовлення</button>
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <h1 class="footer__title">Контакти</h1>
+        <!--Тут знову ти работаєш-->
+        <map></map>
+        <div class="footer__block">
+            <div class="footer__part">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <div>
+                            <img class="footer__img" src="./images/instagram.png">
+                        </div>
+                        <a href="mailto:@HentaiDONATE" class="footer__link">@UnitSBinst</a>
+                    </li>
+                    <li class="footer__item">
+                        <div>
+                            <img class="footer__img" src="./images/facebook.png">
+                        </div>
+                        <a href="#" class="footer__link">@UnitSBface</a>
+                    </li>
+                    <li class="footer__item">
+                        <div>
+                            <img class="footer__special" src="./images/youtube.png">
+                        </div>
+                        <a href="#" class="footer__link">@UnitSByt</a>
+                    </li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <div>
+                            <img class="footer__img" src="./images/phone-call.png.img">
+                        </div>
+                        <a href="tel:+380 00 000 00 00" class="footer__link">+380 00 000 00 00</a>
+                    </li>
+                    <li class="footer__item">
+                        <img class="footer__mail" src="./images/mail.png.img">
+                        <a href="mailto:hentaidonate.official@gmail.com"
+                            class="footer__link">unitsb.official@gmail.com</a>
+                    </li>
+                </ul>
             </div>
-        </footer>
-        <!-- SCRIPTS -->
-        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js"
-            data-cf-beacon="{&quot;token&quot;: &quot;07e9b2efafbd4b458690b79234a62148&quot;}"></script>
-        <script type="module" crossorigin="" src="./assets/3d-slider-control.js"></script>
+            <div>
+                <img class="footer__qrcode" src="./images/qrcode.png">
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon="{&quot;token&quot;: &quot;07e9b2efafbd4b458690b79234a62148&quot;}"></script>
+    <script type="module" crossorigin="" src="./assets/3d-slider-control.js"></script>
 </body>
 
 </html>

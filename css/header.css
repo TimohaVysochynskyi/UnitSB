@@ -39,9 +39,14 @@
 .header__link {
     text-decoration: none;
     color: #fff;
-    opacity: 0.8;
+    opacity: 0.9;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
+    transition: .2s;
+}
+.header__link:hover{
+    opacity: 1;
+    transition: .2s;
 }
 .header__phone{
     font-weight: 700;

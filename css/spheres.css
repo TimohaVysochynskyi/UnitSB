@@ -1,0 +1,93 @@
+.sphere-dark,
+.sphere-light {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181818;
+    box-shadow: 1px -1px 5px rgba(24, 24, 24, 0.5);
+    padding: 20px
+}
+.sphere-light {
+    background: none;
+    box-shadow: none;
+}
+.sphere-dark__title,
+.sphere-light__title {
+  font-weight: 500;
+  font-size: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #fff;
+ margin: 18px 0px
+}
+.sphere-light__title {
+    color: #000;
+}
+.sphere-dark__text,
+.sphere-light__text {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #fff;
+    letter-spacing: 0.02em;
+    line-height: 28px;
+}
+.sphere-light__text {
+    color: #000000;
+}
+.sphere-dark__img,
+.sphere-light__img {
+  width: 80%;
+  border-radius: 4px 20px 4px 4px;
+}
+.sphere-light__img {
+    border-radius: 20px 4px 4px 4px;
+}
+.sphere-dark__button,
+.sphere-light__button {
+  width: 80%;
+  height: 65px;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 3px solid #ffffff;
+  border-radius: 4px 4px 20px 4px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+.sphere-light__button {
+    color: #000;
+    background: none;
+    border: 3px solid #000000;
+    border-radius: 4px 4px 4px 20px;
+}
+.sphere__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    width: 90%;
+}
+
+.sphere-dark__col,
+.sphere-lihgt__col{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin: 10px;
+}
+.sphere-dark__col:last-child,
+.sphere-lihgt__col:first-child{
+    width: 30%;
+    align-items: center;
+}
