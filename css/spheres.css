@@ -57,17 +57,28 @@
   align-items: center;
   letter-spacing: 0.02em;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.2);
+  background: none;
   border: 3px solid #ffffff;
   border-radius: 4px 4px 20px 4px;
   margin-top: 20px;
   text-decoration: none;
+  transition: .4s;
 }
 .sphere-light__button {
     color: #000;
     background: none;
     border: 3px solid #000000;
     border-radius: 4px 4px 4px 20px;
+}
+.sphere-dark__button:hover{
+    background-color: #eee;
+    color: #181818;
+    transition: .4s;
+}
+.sphere-light__button:hover {
+    background-color: #181818;
+    color: #eee;
+    transition: .4s;
 }
 .sphere__content {
     display: flex;

@@ -1,0 +1,119 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100vw;
+    min-height: 8vh;
+    padding: 0px 50px;
+
+    background-color: #181818;
+    box-shadow: -2px 2px 30px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 25px 25px;
+}
+
+.header__heading {
+    display: flex;
+    align-items: center;
+}
+.header__title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 63px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header__logo{
+    width: 100px;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.header__item {
+    margin-right: 40px;
+}
+.header__link {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.9;
+    font-size: 16px;
+    font-weight: 400;
+    transition: .2s;
+}
+.header__link:hover{
+    opacity: 1;
+    transition: .2s;
+}
+.header__phone{
+    font-weight: 700;
+    opacity: .9;
+}
+
+
+
+.footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181818;
+    margin-top: 20px;
+    padding: 20px;
+}
+.footer__title {
+    color: #fff;
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.footer__map{
+    width: 80%;
+    height: 400px;
+    margin: 15px 0px;
+    border-radius: 10px;
+    filter: brightness(60%) grayscale(15%) contrast(110%);
+}
+
+.footer__content{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__list {
+    list-style: none;
+}
+.footer__item {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    margin-left: 0;
+}
+.footer__item:nth-child(4){
+    margin-top: 40px;
+}
+.footer__link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: .5px;
+    color: #ffffff;
+}
+.footer__img {
+    width: 40px;
+    margin-right: 10px;
+}
+.footer__qrcode {
+    width: 300px;
+    margin-top: 0%;
+    border-radius: 10px;
+    filter: grayscale(25%);
+}
