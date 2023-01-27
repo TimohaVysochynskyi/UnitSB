@@ -9,6 +9,13 @@
     --swiper-theme-color: #007aff
 }
 
+.slide-content {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
 .swiper {
     margin-left: auto;
     margin-right: auto;

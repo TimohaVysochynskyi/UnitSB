@@ -21,3 +21,46 @@ body {
   );
   overflow-x: hidden;
 }
+@media screen and (max-width: 769px) {
+  .sphere__content {
+    flex-direction: column;
+  }
+  .sphere-dark__col:last-child, .sphere-lihgt__col:first-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+    width: 100%;
+  }
+  .sphere-dark__col, .sphere-lihgt__col {
+    width: 100%;
+  }
+  .sphere-dark__img, .sphere-light__img {
+    width: 300px;
+    border-radius: 15px; 
+  }
+  .sphere-dark__button, .sphere-light__button {
+    border-radius: 15px;
+    text-align: center;
+    width: 270px;
+    padding: 12px 8px 10px 2px;
+    font-size: 26px;
+  }
+  .contact__form  {
+    margin-right: 10%;
+  }
+  .header__nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .header {
+    flex-direction: column;
+    padding: 10px 0 25px;
+  }
+  .header__link {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
