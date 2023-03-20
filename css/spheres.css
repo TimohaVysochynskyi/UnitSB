@@ -62,23 +62,30 @@
   border-radius: 4px 4px 20px 4px;
   margin-top: 20px;
   text-decoration: none;
-  transition: .4s;
+  transition: .3s;
 }
 .sphere-light__button {
     color: #000;
     background: none;
-    border: 3px solid #000000;
+    border: 3px solid #181818;
     border-radius: 4px 4px 4px 20px;
 }
 .sphere-dark__button:hover{
-    background-color: #eee;
-    color: #181818;
-    transition: .4s;
+    box-shadow: 0px 0px 15px rgb(33, 122, 255);
+    border-color: rgb(33, 122, 255, 0.6);
+    border-radius: 25px;
+    text-shadow: 0px 0px 2px rgb(248, 248, 97);
+    color: yellow;
+    transition: .3s;
 }
 .sphere-light__button:hover {
+    box-shadow: 0px 0px 15px rgb(33, 122, 255);
+    border-color: rgb(33, 122, 255, 0.6);
+    border-radius: 25px;
+    text-shadow: 0px 0px 2px rgb(248, 248, 97);
+    color: rgb(248, 248, 97);
     background-color: #181818;
-    color: #eee;
-    transition: .4s;
+    transition: .3s;
 }
 .sphere__content {
     display: flex;
@@ -90,7 +97,7 @@
 
 .sphere-dark__col,
 .sphere-lihgt__col{
-    width: 50%;
+    width: 57%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
