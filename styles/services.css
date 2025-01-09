@@ -1,0 +1,36 @@
+.services {
+  padding: 80px 160px;
+}
+.services__row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 30px;
+}
+.services__row .white-text {
+  width: 100%;
+}
+.services__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 20px;
+  margin-top: 30px;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.service__img-wrapper {
+  height: 240px;
+  width: 100%;
+  position: relative;
+}
+.service__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+  border-radius: 10px 10px 0 0;
+}
